@@ -7,9 +7,7 @@
     width: 10cm;
     text-align: center;
 }
-a:focus{
-    background: #650bf5;
-}
+
 
 body{
     background-color: #adfcff;
@@ -19,27 +17,67 @@ body{
     margin: 0px auto;
 }
 header{
-    height: 150px;
+    height: 200px;
     width: 100%;
     margin-top: 3%;
     text-align: center;
     line-height: 150px;
+    padding: 1%;
     background: #cfb7f4;
     background: -moz-linear-gradient(top,  #cfb7f4 0%, #adfcff 72%, #adfcff 72%);
     background: -webkit-linear-gradient(top,  #cfb7f4 0%,#adfcff 72%,#adfcff 72%);
     background: linear-gradient(to bottom,  #cfb7f4 0%,#adfcff 72%,#adfcff 72%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfb7f4', endColorstr='#adfcff',GradientType=0 );
     border-radius: 10px;
+    
 }
-#logo{
-    width: 320px;
+/*--------------nav-----------------*/
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #cfb7f4; 
+    background: -moz-linear-gradient(top, #cfb7f4 0%, #adfcff 16%, #adfcff 87%, #adfcff 87%, #cfb7f4 100%);
+    background: -webkit-linear-gradient(top, #cfb7f4 0%,#adfcff 16%,#adfcff 87%,#adfcff 87%,#cfb7f4 100%);
+    background: linear-gradient(to bottom, #cfb7f4 0%,#adfcff 16%,#adfcff 87%,#adfcff 87%,#cfb7f4 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfb7f4', endColorstr='#cfb7f4',GradientType=0 );
+    border-radius: 10px;
+}
+nav li{
     float: left;
 }
-nav ul li a{
-    float: left;
-    margin: 10px;
-    line-height: 30px;
+nav li a{
+    display: block;
+    color: #7A5CFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
 }
+
+nav li a:hover:not(.active){
+    background-color: #adfcff;
+
+}
+
+
+/*-------------fin nav--------------*/
+/*-------------Logo----------*/
+.logo{
+
+    width: 225px;
+
+    
+}
+.logotro{
+    width: 330px;
+}
+/*---------fin logo-------*/
+header img{
+    width: 140%;
+}
+
 
 div{
     padding-top: 10px;
@@ -56,18 +94,11 @@ div{
     width: 400px;
     
 }
-#contenido{
-    float: left;
-    width: 80%;
-}
-aside{
-    float: left;
-    width: 20%;
-}
+
 
 h1{
     color: #7a5cff;
-    float: left;
+
     font-size: 250%;
 }
 h2{
@@ -76,7 +107,7 @@ h2{
 h3{
     color: #6576b4;
 }
-
+/*
 a:visited{
     color: rgb(166, 157, 255);
 }
@@ -86,6 +117,11 @@ a:hover{
 a:active{
     color: #adfcff;
 }
+a:focus{
+    background: #650bf5;
+}
+*/
+
 .ayudaa{
     width: 300px;
     border:2px solid #cfb7f4;
@@ -94,3 +130,8 @@ a:active{
 .joder{
     width: 200px;
 }
+.imageen{
+    float: left;
+    margin: 20px;
+}
+
